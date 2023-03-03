@@ -6,41 +6,81 @@ html , body {
 #panel{
     width: 23.5% ;
     height: 100%;
-    background-color: gold;
+    /* background-color: gold; */
     position: fixed;
 }
 #container{
     width: 80% ;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 
     display: flex;
     flex-direction: column;
     margin-left: 16%;
 }
 .icon{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     height: 15%;
 }
+.icon> img{
+    height: 54px;
+    position: relative;
+    top: 30px;
+}
+
 .buttons{
-    background-color: green;
+    /* background-color: green; */
     height: 70%;
-    background-color:  goldenrod;
+    /* background-color:  goldenrod; */
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
 }
 .button{
-    background-color: pink;
+    /* background-color: pink; */
     height: 10%;
 }
-.button:nth-of-type(2n){
-    background-color: brown;
+.button img {
+    height: 30px;
+    width: 30px;
+    margin-top:10px;    
 }
+.button> a{
+    text-decoration: none;
+}
+.button {
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+/* .button:nth-of-type(2n){
+    background-color: rgb(182, 155, 155);
+} */
 .tweetbutt{
-    background-color: grey;
+    /* background-color: grey; */
     height: 15%;
+}
+.tweetbutt > button {
+    height: 60%;
+    width: 90%;
+    background-color: #1D9BF0;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    margin-top: 10px;
+
 }
 .account{
-    background-color: brown;
+    /* background-color: brown; */
     height: 15%;
+    letter-spacing: 1px;
+}
+.account>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top:24px ;
 }
 
 #main{

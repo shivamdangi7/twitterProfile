@@ -34,7 +34,7 @@ html , body {
 .button:nth-of-type(2n){
     background-color: brown;
 }
-.tweet{
+.tweetbutt{
     background-color: grey;
     height: 15%;
 }
@@ -49,6 +49,13 @@ html , body {
     height: 100%;
     position: absolute;
     left:24%;
+}
+.bar{
+    background-color: mediumseagreen;
+    height: 30%;
+}   
+.bar:nth-of-type(2n){
+    background-color: antiquewhite;
 }
 #asides{
     width: 28%;

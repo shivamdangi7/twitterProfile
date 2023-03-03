@@ -1,0 +1,68 @@
+html , body {
+    margin: 0 ;
+    height: 100vh;
+    width: 100vw;
+}
+#panel{
+    width: 23.5% ;
+    height: 100%;
+    background-color: gold;
+    position: fixed;
+}
+#container{
+    width: 80% ;
+    height: 100%;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 16%;
+}
+.icon{
+    background-color: greenyellow;
+    height: 15%;
+}
+.buttons{
+    background-color: green;
+    height: 70%;
+    background-color:  goldenrod;
+}
+.button{
+    background-color: pink;
+    height: 10%;
+}
+.button:nth-of-type(2n){
+    background-color: brown;
+}
+.tweet{
+    background-color: grey;
+    height: 15%;
+}
+.account{
+    background-color: brown;
+    height: 15%;
+}
+
+#main{
+    width: 45%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    left:24%;
+}
+#asides{
+    width: 28%;
+    background-color: rgb(0, 255, 221);
+    height: 100%;
+    position: absolute;
+    left:70%;
+}
+.aside{
+    width: 90%;
+    background-color: beige;
+    height: 30%;
+    margin-left: 5%;
+}
+.aside:nth-of-type(2n){
+    background-color: maroon;
+}

@@ -170,17 +170,92 @@ html , body {
 
 #asides{
     width: 28%;
-    background-color: rgb(0, 255, 221);
+    /* background-color: rgb(0, 255, 221); */
     height: 100%;
     position: absolute;
     left:70%;
 }
 .aside{
     width: 90%;
-    background-color: beige;
+    /* background-color: beige; */
     height: 30%;
     margin-left: 5%;
+    border: 2px solid #EFF3F4 ;
 }
-.aside:nth-of-type(2n){
+#asides>.search{
+    height: 50px;
+}
+#asides>.search>input{
+    width: 90%;
+    height: 70%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: #EFF3F4;
+    border: none;
+}
+#asides>.images{
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   border-radius: 30px;
+}
+#asides>.aside>.img{
+    border: 1px solid #ffffff;
+
+}
+.img1{
+    background-image: url(./images/git.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+}
+.img2{
+    background-image: url(./images/calc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(./images/lassi.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+}
+.img4{
+    background-image: url(./images/creditCard.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20px;    
+}.img5{
+    background-image: url(./images/signUP.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(./images/cloth.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 20px;
+}
+
+/* .aside:nth-of-type(2n){
     background-color: maroon;
+} */
+
+#asides>.mightlike{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #EFF3F4;
+}
+
+#asides>.mightlike>.like{
+    /* border:2px solid red; */
+    padding-left: 5%;
 }
